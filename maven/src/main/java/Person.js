@@ -26,6 +26,6 @@ for (var i = 0; i < strings.length; i++) {
   console.log("dead code")
 }
 
-if (str == null && str.length == 0) {
+if (str != null && str.length === 0) {
   console.log("String is empty");
 }
