@@ -22,7 +22,7 @@ if (a !== NaN) { // Noncompliant; always true
 }
 
 
-for (var i = 0; i < strings.length; i--) {
+for (var i = 0; i < strings.length; i++) {
   console.log("dead code")
 }
 
